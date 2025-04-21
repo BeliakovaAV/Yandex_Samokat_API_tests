@@ -1,8 +1,8 @@
 import pytest
 
 from generators import generate_courier_creation_body
-from courier_login_meth import CourierLoginMeth
-from courier_creation_meth import CourierCreationMeth
+from methods.courier_login_meth import CourierLoginMeth
+from methods.courier_creation_meth import CourierCreationMeth
 
 
 @pytest.fixture

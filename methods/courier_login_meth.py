@@ -7,7 +7,6 @@ class CourierLoginMeth:
 
     @staticmethod
     def courier_login(body):
-        CourierCreationMeth.create_courier(body)
         payload = {
             "login": body["login"],
             "password": body["password"]

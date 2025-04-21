@@ -1,5 +1,5 @@
 import allure
-from courier_creation_meth import CourierCreationMeth
+from methods.courier_creation_meth import CourierCreationMeth
 import helpers
 
 
