@@ -1,4 +1,4 @@
-from data import DataForCourierCreation, DataForCourierLogin, DataForOrderCreation
+from data import DataForCourierCreation
 
 
 def modify_create_courier_body(key, value):
@@ -7,13 +7,4 @@ def modify_create_courier_body(key, value):
     return body
 
 
-def modify_courier_login_body(key, value):
-    body = DataForCourierLogin.COURIER_LOGIN_BODY.copy()
-    body[key] = value
-    return body
 
-
-def modify_create_order_body(key, value):
-    body = DataForOrderCreation.CREATE_ORDER_BODY.copy()
-    body[key] = value
-    return body

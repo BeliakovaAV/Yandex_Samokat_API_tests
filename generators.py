@@ -21,5 +21,5 @@ def generate_order_creation_body():
         "rentTime": fake.random_int(min=1, max=50),
         "deliveryDate": fake.date_between(start_date='today', end_date='+30d').isoformat(),
         "comment": fake.word(),
-        "color": fake.random_element(elements=('GREY', 'BLACK'))  # под вопросом
+        "color": [fake.random_element(elements=('GREY', 'BLACK'))]
     }
