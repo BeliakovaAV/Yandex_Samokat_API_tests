@@ -13,9 +13,7 @@ def generate_courier():
     CourierCreationMeth.delete_courier(courier_id)
 
 
-@pytest.fixture
-def generate_booking():
-    booking_body = generate_booking_body()
-    booking_response = BookingMethods.create_booking(booking_body)
-    booking_id = booking_response.json()['bookingid']
-    yield booking_id
+
+
+
+
