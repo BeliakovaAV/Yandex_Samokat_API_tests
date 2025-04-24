@@ -15,3 +15,14 @@ class DataForCourierCreation:
     }
 
 
+class ServerResponses:
+    COURIER_CREATION_SUCCESS = {"ok": True}
+    SAME_LOGIN_FAILURE = "Этот логин уже используется"
+    COURIER_EMPTY_REQUIRED_FIELD = "Недостаточно данных для создания учетной записи"
+    AUTH_EMPTY_REQUIRED_FIELD = "Недостаточно данных для входа"
+    AUTH_WRONG_DATA = "Учетная запись не найдена"
+
+
+class TestData:
+    AUTH_PASSWORD = "647364732"
+    AUTH_LOGIN = "krasopetka"

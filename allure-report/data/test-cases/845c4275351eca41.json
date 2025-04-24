@@ -1,0 +1,148 @@
+{
+  "uid" : "845c4275351eca41",
+  "name" : "Тест на невозможность создания двух одинаковых курьеров",
+  "fullName" : "tests.test_courier_creation.TestCreateCourier#test_double_courier_creation_impossible",
+  "historyId" : "f287578d1d1759b8db1d6803a5e75600",
+  "time" : {
+    "start" : 1745410131853,
+    "stop" : 1745410132522,
+    "duration" : 669
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert (409 == 409 and 'Этот логин у...буйте другой.' == 'Этот логин уже используется'\n +  where 409 = <Response [409]>.status_code\n  \n  - Этот логин уже используется\n  + Этот логин уже используется. Попробуйте другой.)",
+  "statusTrace" : "self = <tests.test_courier_creation.TestCreateCourier object at 0x000001FDAD0FFE50>, generate_courier = {'firstName': 'Guy', 'login': 'own', 'password': 'aMPl6M2p#%'}\n\n    @allure.title('Тест на невозможность создания двух одинаковых курьеров')\n    def test_double_courier_creation_impossible(self, generate_courier):\n        with allure.step('Создаём первого курьера'):\n            CourierCreationMeth.create_courier(generate_courier)\n        with allure.step('Создаём второго курьера - копию первого'):\n            doppelganger = CourierCreationMeth.create_courier(generate_courier)\n>       assert doppelganger.status_code == 409 and doppelganger.json()[\"message\"] == \"Этот логин уже используется\"\nE       AssertionError: assert (409 == 409 and 'Этот логин у...буйте другой.' == 'Этот логин уже используется'\nE        +  where 409 = <Response [409]>.status_code\nE         \nE         - Этот логин уже используется\nE         + Этот логин уже используется. Попробуйте другой.)\n\ntests\\test_courier_creation.py:19: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1745410131068,
+      "stop" : 1745410131068,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "generate_courier",
+    "time" : {
+      "start" : 1745410131853,
+      "stop" : 1745410131853,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert (409 == 409 and 'Этот логин у...буйте другой.' == 'Этот логин уже используется'\n +  where 409 = <Response [409]>.status_code\n  \n  - Этот логин уже используется\n  + Этот логин уже используется. Попробуйте другой.)",
+    "statusTrace" : "self = <tests.test_courier_creation.TestCreateCourier object at 0x000001FDAD0FFE50>, generate_courier = {'firstName': 'Guy', 'login': 'own', 'password': 'aMPl6M2p#%'}\n\n    @allure.title('Тест на невозможность создания двух одинаковых курьеров')\n    def test_double_courier_creation_impossible(self, generate_courier):\n        with allure.step('Создаём первого курьера'):\n            CourierCreationMeth.create_courier(generate_courier)\n        with allure.step('Создаём второго курьера - копию первого'):\n            doppelganger = CourierCreationMeth.create_courier(generate_courier)\n>       assert doppelganger.status_code == 409 and doppelganger.json()[\"message\"] == \"Этот логин уже используется\"\nE       AssertionError: assert (409 == 409 and 'Этот логин у...буйте другой.' == 'Этот логин уже используется'\nE        +  where 409 = <Response [409]>.status_code\nE         \nE         - Этот логин уже используется\nE         + Этот логин уже используется. Попробуйте другой.)\n\ntests\\test_courier_creation.py:19: AssertionError",
+    "steps" : [ {
+      "name" : "Создаём первого курьера",
+      "time" : {
+        "start" : 1745410131853,
+        "stop" : 1745410132289,
+        "duration" : 436
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Создаём второго курьера - копию первого",
+      "time" : {
+        "start" : 1745410132289,
+        "stop" : 1745410132521,
+        "duration" : 232
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "generate_courier::0",
+    "time" : {
+      "start" : 1745410132606,
+      "stop" : 1745410133014,
+      "duration" : 408
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_courier_creation"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCreateCourier"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-0807K0Q"
+  }, {
+    "name" : "thread",
+    "value" : "35772-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_courier_creation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "845c4275351eca41.json",
+  "parameterValues" : [ ]
+}

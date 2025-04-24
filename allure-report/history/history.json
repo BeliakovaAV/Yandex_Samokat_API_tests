@@ -1,0 +1,270 @@
+{
+  "138d62be86878e5a4e459bcdc4c2fe1f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "37b0d48776ffd2b9",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert (409 == 201)\n +  where 409 = <Response [409]>.status_code",
+      "time" : {
+        "start" : 1745410133243,
+        "stop" : 1745410133452,
+        "duration" : 209
+      }
+    } ]
+  },
+  "084bb7a8881331d539938b7bdd4e21e7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "86e6707306167f59",
+      "status" : "passed",
+      "time" : {
+        "start" : 1745410137384,
+        "stop" : 1745410137802,
+        "duration" : 418
+      }
+    } ]
+  },
+  "92fb51a6a6fd0fdc4e5fed721b8f2016" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d7d25298b40af0ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1745410131070,
+        "stop" : 1745410131325,
+        "duration" : 255
+      }
+    } ]
+  },
+  "41a844eca3fdab391bd2a5938cd1a823" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "939ab09e953acd19",
+      "status" : "passed",
+      "time" : {
+        "start" : 1745410134994,
+        "stop" : 1745410135424,
+        "duration" : 430
+      }
+    } ]
+  },
+  "d0d1df0e9618d9423c5927137048c395" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fdc4a945b545a71f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1745410136462,
+        "stop" : 1745410136916,
+        "duration" : 454
+      }
+    } ]
+  },
+  "f287578d1d1759b8db1d6803a5e75600" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "845c4275351eca41",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert (409 == 409 and 'Этот логин у...буйте другой.' == 'Этот логин уже используется'\n +  where 409 = <Response [409]>.status_code\n  \n  - Этот логин уже используется\n  + Этот логин уже используется. Попробуйте другой.)",
+      "time" : {
+        "start" : 1745410131853,
+        "stop" : 1745410132522,
+        "duration" : 669
+      }
+    } ]
+  },
+  "6003db6419ab9be8b8d7ca7dc557d140" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3b8b7b20a91cfb8a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1745410139349,
+        "stop" : 1745410139835,
+        "duration" : 486
+      }
+    } ]
+  },
+  "6a0b10f5bd53eb1005a8bb2da52400db" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2ba4809e6d2f4b76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1745410140749,
+        "stop" : 1745410142059,
+        "duration" : 1310
+      }
+    } ]
+  },
+  "eab2932b08c2b58d28b29de9738c7fd6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "509ac30e14b92c06",
+      "status" : "passed",
+      "time" : {
+        "start" : 1745410133017,
+        "stop" : 1745410133241,
+        "duration" : 224
+      }
+    } ]
+  },
+  "4b1733ede05e194726de258e2800327d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "92150cf36de759aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1745410138529,
+        "stop" : 1745410138921,
+        "duration" : 392
+      }
+    } ]
+  },
+  "be336882678aff3b2089955a46b7759f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f93b99e4d916beab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1745410139837,
+        "stop" : 1745410140746,
+        "duration" : 909
+      }
+    } ]
+  },
+  "f744781546b35e51ba75e5868fba423c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8ca8f50da647727c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1745410138300,
+        "stop" : 1745410138524,
+        "duration" : 224
+      }
+    } ]
+  },
+  "5240ca972853a09f2e596dba00302d85" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "717dc66d382af072",
+      "status" : "passed",
+      "time" : {
+        "start" : 1745410133459,
+        "stop" : 1745410134109,
+        "duration" : 650
+      }
+    } ]
+  },
+  "dc50b7d9cb8c523d690fc220e91428dc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d18e238145a01e4f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1745410138923,
+        "stop" : 1745410139346,
+        "duration" : 423
+      }
+    } ]
+  }
+}

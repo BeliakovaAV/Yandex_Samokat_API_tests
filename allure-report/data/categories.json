@@ -1,0 +1,41 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert (409 == 409 and 'Этот логин у...буйте другой.' == 'Этот логин уже используется'\n +  where 409 = <Response [409]>.status_code\n  \n  - Этот логин уже используется\n  + Этот логин уже используется. Попробуйте другой.)",
+      "children" : [ {
+        "name" : "Тест на невозможность создания двух одинаковых курьеров",
+        "uid" : "845c4275351eca41",
+        "parentUid" : "d2a1213f4cffd62114175adfa01bb24c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1745410131853,
+          "stop" : 1745410132522,
+          "duration" : 669
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d2a1213f4cffd62114175adfa01bb24c"
+    }, {
+      "name" : "AssertionError: assert (409 == 201)\n +  where 409 = <Response [409]>.status_code",
+      "children" : [ {
+        "name" : "Тест на успешное создание курьера без необязательного поля",
+        "uid" : "37b0d48776ffd2b9",
+        "parentUid" : "87b36faad14641d6ba6e243fdc365a67",
+        "status" : "failed",
+        "time" : {
+          "start" : 1745410133243,
+          "stop" : 1745410133452,
+          "duration" : 209
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "87b36faad14641d6ba6e243fdc365a67"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
